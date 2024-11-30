@@ -1,4 +1,4 @@
-## PIEZO1 MINFLUX analysis
+# PIEZO1 MINFLUX analysis
 Matlab scripts and datasets for "Cluster nanoarchitecture and structural diversity of PIEZO1 in intact cells"
 
 by Stefan Lechner, Clement Verkest, Lucas Roettger and Nadja Zeitzschel 
@@ -9,7 +9,7 @@ The scripts and data are provided for academic and visualization purposes only. 
 Please contact the authors for further inquiries.
 
 
-## Requirements
+# Requirements
 
 Scripts generated and tested with Matlab R2023b and R2024a. Require additional Matlab features such as the Signal_Processing_Toolbox or Image_Processing_Toolbox
 
@@ -50,7 +50,7 @@ Raw data provided:
 
 
 
-## How to use 
+# How to use 
 
 -Download folders (Fig1-2 and Fig3-4) and their content
 -Add them to your Matlab path
@@ -78,6 +78,6 @@ Raw data provided:
 
 
 
-## Citation
+# Citation
 preprint: https://www.biorxiv.org/content/10.1101/2024.11.26.625366v1.full
 
