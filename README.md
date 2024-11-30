@@ -8,6 +8,7 @@ This set of Matlab scripts are used to visualize and explore PIEZO1 DNA-PAINT Mi
 The scripts and data are provided for academic and visualization purposes only. Commercial usage of the provided Minflux data (reproduction outside of the publication, etc. ) is forbidden.
 Please contact the authors for further inquiries.
 
+NOTE: those scripts are preliminary and might be modified, updated and deposited elsewhere in the future.
 
 # Requirements
 
