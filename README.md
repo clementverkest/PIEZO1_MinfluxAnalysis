@@ -1,10 +1,10 @@
 # PIEZO1 MINFLUX analysis
-Matlab scripts and datasets for "Cluster nanoarchitecture and structural diversity of PIEZO1 in intact cells"
+Updated Matlab scripts and datasets for "Cluster nanoarchitecture and structural diversity of PIEZO1 at rest and during activation in intact cells"
 
 by Stefan Lechner, Clement Verkest, Lucas Roettger and Nadja Zeitzschel 
-Contact: s.lechner@uke.de
+Contact: s.lechner@uke.de / c.verkest@uke.de
 
-This set of Matlab scripts are used to visualize and explore PIEZO1 DNA-PAINT Minflux data in Verkest et al., 2024 (https://www.biorxiv.org/content/10.1101/2024.11.26.625366v1.full)
+This set of Matlab scripts are used to visualize and explore PIEZO1 DNA-PAINT Minflux data presented in Verkest et al., 2025 (10.1101/2024.11.26.625366)
 The scripts and data are provided for academic and visualization purposes only. Commercial usage of the provided Minflux data (reproduction outside of the publication, etc. ) is forbidden.
 Please contact the authors for further inquiries.
 
@@ -54,7 +54,7 @@ Raw data provided:
 
 # How to use 
 
--Download folders (Fig1-2 and Fig3-4) and their content
+-Download folders (Fig1-3 and Fig5-7) and their content
 -Add them to your Matlab path
 
 -Run PIEZO1_GFP_ClusterAnalysis_1.m
@@ -71,18 +71,18 @@ Raw data provided:
 
 -Run PIEZO1_GFP_ClusterAnalysis_3.m
 
-	-This script is used to plot panels in Fig 2c-f
+	-This script is used to plot panels in Fig 7c-f
 	-Select options in the 'set options' section.
  
 -Run PIEZO1_ALFA_Analysis_1.m	
 
-	-This script is used to plot most panels in figure 3 and 4, and Extended Data Fig 9.
+	-This script is used to plot most panels in figure 1 to 3, and some supplementary Data Fig.
 	-Select options in 'CHOOSE OPTIONS' section
-	-Select the data source in the 'load data' section (0 = soma, 1 = neurite, 2 = cytochalasin-D)
+	-Select the data source in the 'load data' section (0 = soma, 1 = neurite, 2 = cytochalasin-D, 3 = yoda1, 4 = neurite+yoda1, 5 = cytod+yoda1)
 	-Possibility to run PIEZO1_ALFA_TrimerInPlaneProjection.m after running PIEZO1_ALFA_Analysis_1.m (it generates 'IndivTrimersRAW', that is required for the script to work)
 
 
 
 
 # Citation
-preprint: https://www.biorxiv.org/content/10.1101/2024.11.26.625366v1.full
+preprint: https://www.biorxiv.org/content/10.1101/2024.11.26.625366v2
